@@ -21,7 +21,8 @@ user@user-pc:~/netology/08-ansible/playbook$
 ![image](https://user-images.githubusercontent.com/22905019/172149252-2ba2fdb6-1b42-42f6-aeb3-4ef98eb98c4a.png)  
 3. Воспользуйтесь подготовленным (используется `docker`) или создайте собственное окружение для проведения дальнейших испытаний.  
 ![image](https://user-images.githubusercontent.com/22905019/172156168-541d8a55-116c-4921-acc6-262d1a9b6280.png)  
-4. Проведите запуск playbook на окружении из `prod.yml`. Зафиксируйте полученные значения `some_fact` для каждого из `managed host`.
+4. Проведите запуск playbook на окружении из `prod.yml`. Зафиксируйте полученные значения `some_fact` для каждого из `managed host`.  
+![image](https://user-images.githubusercontent.com/22905019/172156375-c4b3be6b-d5e2-4bbf-b709-ece5d9facc0d.png)
 
 6. Добавьте факты в `group_vars` каждой из групп хостов так, чтобы для `some_fact` получились следующие значения: для `deb` - 'deb default fact', для `el` - 'el default fact'.
 7.  Повторите запуск playbook на окружении `prod.yml`. Убедитесь, что выдаются корректные значения для всех хостов.
